@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-section {
+  background-color: #606f55;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-list {
+  float: right;
+
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 15px;
+  color: white;
+}
+
+.logo i{
+  color: gold;
+}
+
+.sign-up-div {
+  margin-left: 150px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.sign-up-div a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.login-btn {
+  height: 40px;
+  width: 50px;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  border: none;
+  color: black;
+  background: white;
+  margin-left: 10px;
+  
+}
+
+.intro {
+  background: #606f55;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.intro div{
+  padding-left: 60px;
+  margin-top: 150px;
+}
+.prod-cap{
+  color: white;
+  font-size: 3.2rem;
+}
+
+.intro img{
+  width: 500px;
+  height: 600px;
+  background: white;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.prod-desc{
+  margin-top: 15px;
+  color: white;
+  line-height: 20px;
+  font-size: 5px;
+}
+
+.buy-btn{
+  background-attachment: white;
+  color: black;
+  width: 150px;
+  height: 50px;
+  border: none;
+  margin-top: 30px;
+}
+
+.intro-card{
+  background: white;
+  position: relative;
+  color: black;
+  bottom: 100px;
+  width: 800px;
+  padding: 50px;
+  margin-left: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.intro-card div h1{
+   font-weight: bold;
+}
